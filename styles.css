@@ -817,3 +817,19 @@ address {
     padding-inline: 10px;
   }
 }
+@media (max-width:768px){
+
+    .section-divider{
+        gap:16px;
+        margin:45px auto;
+    }
+
+    .divider-football{
+        width:60px;
+    }
+
+    .divider-line{
+        height:3px;
+    }
+
+}
