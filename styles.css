@@ -838,7 +838,7 @@ address {
 
 @media (max-width: 900px) {
   .hero {
-    background-position: center 35%;
+    background-position: center 25%;
   }
 
   .hero__content {
