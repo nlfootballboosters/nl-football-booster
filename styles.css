@@ -836,12 +836,13 @@ address {
 
 }
 
-@media (max-width: 900px) {
+@media (max-width: 768px) {
   .hero {
-    background-position: center 25%;
+    background-size: auto 100%;
+    background-position: center center;
   }
 
   .hero__content {
-    transform: none !important;
+    transform: translateY(65px) !important;
   }
 }
