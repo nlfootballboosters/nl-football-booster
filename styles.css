@@ -642,3 +642,83 @@ address {
     bottom: 6px;
   }
 }
+
+
+/* Stadium hero and realistic football update */
+.hero {
+  min-height: 710px;
+  background-image:
+    linear-gradient(rgba(1, 10, 28, .66), rgba(1, 12, 35, .80)),
+    url("assets/stadium-background.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero__overlay {
+  background:
+    linear-gradient(180deg, rgba(0, 0, 0, .18), transparent 34%, rgba(0, 0, 0, .20)),
+    radial-gradient(circle at center 70%, transparent 0 25%, rgba(0, 0, 0, .30) 100%);
+}
+
+.hero::after { display: none; }
+
+.football-divider {
+  gap: 12px;
+  width: min(900px, 96%);
+  margin-top: -34px;
+  position: relative;
+  z-index: 3;
+}
+
+.football-divider--small {
+  margin-top: 34px;
+}
+
+.football-divider__line {
+  height: 10px;
+  border-radius: 0;
+  background:
+    linear-gradient(to bottom,
+      var(--gold) 0 3px,
+      transparent 3px 7px,
+      var(--gold) 7px 10px);
+}
+
+.football-realistic {
+  display: block;
+  width: 132px;
+  height: auto;
+  margin: -14px -3px -12px;
+  filter: drop-shadow(0 7px 5px rgba(0, 0, 0, .35));
+}
+
+.football-divider--small .football-realistic {
+  width: 104px;
+  margin-top: -10px;
+  margin-bottom: -9px;
+}
+
+@media (max-width: 620px) {
+  .hero {
+    min-height: 625px;
+    background-position: center center;
+  }
+
+  .football-divider {
+    margin-top: -24px;
+    gap: 7px;
+  }
+
+  .football-divider__line {
+    height: 8px;
+    background:
+      linear-gradient(to bottom,
+        var(--gold) 0 2px,
+        transparent 2px 6px,
+        var(--gold) 6px 8px);
+  }
+
+  .football-realistic { width: 92px; }
+  .football-divider--small .football-realistic { width: 78px; }
+}
