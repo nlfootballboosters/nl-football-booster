@@ -805,17 +805,7 @@ address {
 }
 
 @media (max-width: 620px) {
-  .hero {
-    min-height: 560px;
-    background-position: center;
-  }
-
-  .hero__content {
-    padding: 54px 0 70px;
-    transform: translateY(25px);
-  }
-
-  .hero-title strong {
+    .hero-title strong {
     padding-inline: 10px;
   }
 }
