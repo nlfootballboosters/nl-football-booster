@@ -843,6 +843,6 @@ address {
   }
 
   .hero__content {
-    transform: translateY(65px) !important;
+    transform: translateY(25px) !important;
   }
 }
