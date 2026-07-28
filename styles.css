@@ -772,7 +772,7 @@ address {
 .hero-title span {
   color: var(--gold);
   font-size: clamp(3.3rem, 9.5vw, 5.4rem);
-  line-height: .94;
+  line-height: .88;
 }
 
 .hero-title strong {
