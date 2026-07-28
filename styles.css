@@ -822,16 +822,17 @@ address {
 
 @media (max-width: 768px) {
   .hero {
-    min-height: 480px !important;
-    align-items: center !important;
-    background-size: auto 100% !important;
-    background-position: center center !important;
-    background-repeat: no-repeat !important;
+    min-height: 500px;
+    align-items: center;
+    background-size: auto 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
   }
 
   .hero__content {
-    margin: 0 auto !important;
-    padding: 18px 0 28px !important;
-    transform: none !important;
+    width: calc(100% - 24px);
+    margin: 0 auto;
+    padding: 20px 0 30px;
+    transform: translateY(8px);
   }
 }
