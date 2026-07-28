@@ -458,9 +458,7 @@ address {
 }
 
 @media (max-width: 760px) {
-  .hero { min-height: 625px; }
-  .hero__content { padding-top: 14px; }
-
+  
   .section-heading {
     grid-template-columns: 45px 1fr 45px;
     gap: 12px;
