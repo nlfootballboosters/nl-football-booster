@@ -737,7 +737,6 @@ address {
 }
 .football-divider--small .football-realistic { width: 96px; }
 @media (max-width: 600px) {
-  .hero { min-height: 610px; background-position: center top; }
   .football-realistic { width: 112px; }
   .football-divider--small .football-realistic { width: 78px; }
 }
