@@ -812,6 +812,7 @@ address {
 
   .hero__content {
     padding: 54px 0 70px;
+    transform: translateY(25px);
   }
 
   .hero-title strong {
