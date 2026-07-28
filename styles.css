@@ -222,8 +222,8 @@ main {
 
 .lock-icon {
   position: absolute;
-  right: 10px;
-  bottom: 8px;
+  right: 18px;
+  bottom: 12px;
   width: 25px;
   height: 25px;
   border-radius: 4px;
@@ -479,7 +479,7 @@ address {
   }
 
   .credit-card-icon { transform: scale(.78); }
-  .lock-icon { right: 7px; bottom: 7px; transform: scale(.78); transform-origin: bottom right; }
+  .lock-icon { right: 14px; bottom: 10px; transform: scale(.78); transform-origin: bottom right; }
 
   .donation-copy h3 { font-size: 1.55rem; }
   .donation-copy p { font-size: 1rem; }
