@@ -757,6 +757,7 @@ address {
 .hero__content {
   width: min(1050px, calc(100% - 32px));
   padding: 64px 0 82px;
+  transform: translateY(55px);
 }
 
 .hero-title {
