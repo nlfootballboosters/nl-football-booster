@@ -522,10 +522,7 @@ address {
 }
 
 @media (max-width: 760px) {
-  .hero__content {
-    padding-top: 48px;
-  }
-
+ 
   .site-footer {
     grid-template-columns: 1fr;
   }
