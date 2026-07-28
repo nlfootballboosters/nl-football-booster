@@ -851,6 +851,10 @@ address {
     background-repeat: no-repeat;
   }
 
+  .hero-title span:nth-child(3) {
+    margin-top: 18px;
+}
+  
   .hero__content {
     width: calc(100% - 24px);
     margin: 0 auto;
