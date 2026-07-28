@@ -835,4 +835,12 @@ address {
     padding: 20px 0 30px;
     transform: translateY(8px);
   }
+
+  .hero-title span {
+    font-size: 3.8rem;
+  }
+
+  .hero-title strong {
+    font-size: 2.4rem;
+  }
 }
