@@ -835,3 +835,9 @@ address {
     }
 
 }
+
+@media (max-width: 768px) {
+    .hero__content {
+        transform: translateY(25px);
+    }
+}
