@@ -838,6 +838,7 @@ address {
 
 @media (max-width: 768px) {
   .hero {
+    min-height: 480px !important;
     align-items: center !important;
     background-size: auto 100% !important;
     background-position: center center !important;
@@ -846,7 +847,7 @@ address {
 
   .hero__content {
     margin: 0 auto !important;
-    padding: 0 !important;
-    transform: translateY(20px) !important;
+    padding: 18px 0 28px !important;
+    transform: none !important;
   }
 }
