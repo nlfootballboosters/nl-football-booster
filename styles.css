@@ -28,12 +28,13 @@ a { color: inherit; }
   overflow: hidden;
   min-height: 710px;
   color: var(--white);
-  background:
-    radial-gradient(circle at 10% 11%, rgba(255,255,255,.95) 0 5px, rgba(255,255,255,.28) 6px, transparent 26px),
-    radial-gradient(circle at 90% 11%, rgba(255,255,255,.95) 0 5px, rgba(255,255,255,.28) 6px, transparent 26px),
-    linear-gradient(rgba(1,16,48,.88), rgba(1,14,43,.97)),
-    repeating-linear-gradient(90deg, transparent 0 80px, rgba(255,255,255,.035) 80px 82px),
-    linear-gradient(180deg, #082b6e, #02102f);
+  background-image:
+    linear-gradient(rgba(1, 10, 28, 0.62), rgba(1, 12, 34, 0.78)),
+    url("assets/stadium-background.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: var(--navy);
 }
 
 .hero::after {
@@ -720,5 +721,23 @@ address {
   }
 
   .football-realistic { width: 92px; }
+  .football-divider--small .football-realistic { width: 78px; }
+}
+
+
+/* Final stadium and transparent-football fixes */
+.football-realistic {
+  display: block;
+  width: 150px;
+  height: auto;
+  object-fit: contain;
+  background: transparent !important;
+  border: 0 !important;
+  box-shadow: none;
+}
+.football-divider--small .football-realistic { width: 96px; }
+@media (max-width: 600px) {
+  .hero { min-height: 610px; background-position: center top; }
+  .football-realistic { width: 112px; }
   .football-divider--small .football-realistic { width: 78px; }
 }
