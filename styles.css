@@ -838,16 +838,15 @@ address {
 
 @media (max-width: 768px) {
   .hero {
-    min-height: 560px !important;
-    align-items: start !important;
+    align-items: center !important;
     background-size: auto 100% !important;
-    background-position: center top !important;
+    background-position: center center !important;
     background-repeat: no-repeat !important;
   }
 
   .hero__content {
     margin: 0 auto !important;
-    padding: 28px 0 55px !important;
-    transform: none !important;
+    padding: 0 !important;
+    transform: translateY(20px) !important;
   }
 }
