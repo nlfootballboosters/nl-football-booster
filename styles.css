@@ -852,11 +852,7 @@ address {
   }
 
   .hero-title span:nth-child(2) {
-    margin-top: 14px;
-}
-
-.hero-title span:nth-child(3) {
-    margin-top: 14px;
+    margin-top: 8px;
 }
   
   .hero__content {
