@@ -771,7 +771,7 @@ address {
 
 .hero-title span {
   color: var(--gold);
-  font-size: clamp(2.9rem, 8vw, 5.4rem);
+  font-size: clamp(3.3rem, 9.5vw, 5.4rem);
   line-height: .94;
 }
 
@@ -783,7 +783,7 @@ address {
   border-top: 3px solid var(--gold);
   border-bottom: 3px solid var(--gold);
   color: var(--white);
-  font-size: clamp(1.9rem, 5vw, 3.25rem);
+  font-size: clamp(2.2rem, 6vw, 3.25rem);
   line-height: 1.05;
 }
 
