@@ -868,23 +868,22 @@ address {
 
   .hero-title span {
     display: block;
-    font-size: 3.3rem;
+    font-size: clamp(2.35rem, 11vw, 3.3rem);
     line-height: .9;
   }
 
+  .hero-title span:first-child {
+    white-space: nowrap;
+    margin-bottom: 18px;
+  }
+
   .hero-title span:nth-child(2) {
-    margin-top: 18px;
+    margin-top: 0;
   }
 
   .hero-title strong {
     display: block;
     font-size: 2rem;
     margin-top: 10px;
-  }
-}
-
-@media (max-width: 620px) {
-  .hero-title strong {
-    padding-inline: 10px;
   }
 }
