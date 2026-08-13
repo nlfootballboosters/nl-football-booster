@@ -318,16 +318,18 @@ main {
 .donation-amount-buttons {
   display: flex;
   justify-content: center;
-  gap: 10px;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 18px;
   width: 100%;
 }
 
 .amount-button {
-  width: auto;
-  min-width: 78px;
-  min-height: 54px;
-  padding: 10px 16px;
-  font-size: 1.35rem;
+  flex: 1;
+  max-width: 95px;
+  min-height: 58px;
+  padding: 10px 0;
+  font-size: 1.45rem;
 }
 
 .venmo-v {
